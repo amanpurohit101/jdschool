@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J D public school</title>
+  <link rel="stylesheet" href="j d.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+</style>
+
+<body>
+  <section class="header">
+    <nav>
+        <a href="index.html"><img src="IMG-20240722-WA0005.jpg" alt="Logo"></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#" class="j-btn" onclick="loadContent('home')">HOME</a></li>
+            <li><a href="#about" class="j-btn" onclick="loadContent('about')">ABOUT</a></li>
+            <li><a href="#" class="j-btn" onclick="loadContent('contact')">CONTACT</a></li>
+            <li><a href="#" class="j-btn" onclick="loadContent('join')">JOIN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box" id="content">
+          <h1>Welcome to JD Public School</h1>
+          <p>
+              Student Achievements: Share success stories of students who have excelled academically, socially, or in extracurricular activities.
+              <br>Supportive Teachers: Recognize educators who go above and beyond to support students both academically and personally.
+          </p>
+          <a href="#" class="j-btn" onclick="loadContent('home')">Visit Us to Know More</a>
+      </div>
+  </section>
+  <section class="s">
+      <div class="container-fluid bg-dark p-0 mb-5">
+          <div class="row g-0 flex-column-reverse flex-lg-row">
+              <div class="col-12 wrapper-marquee">
+                  <marquee scrolldelay="5">
+                      <ul>  <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                          <li><b>Welcome to JD Public School, Morar Gwalior on 01st July, 2024</b></li>
+                          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                          <li><b>Celebration of Monsoon Activity at JD Public School, Morar Gwalior</b></li>
+              <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                          </i></a></li>
+                      </ul>
+                  </marquee>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  <a href="https://docs.google.com/spreadsheets/u/0/" target="_blank" class="school-project-link">school project</a>
+  
+  <div id="about" class="about-section">
+    <h2>About J.D School</h2>
+    <h3>Welcome to JD Public School</h3>
+  
+    <div class="about-content">
+    
+      <div class="flip-container">
+        <div class="flip-box">
+         
+          <div class="flip-box-front">
+            <h4>Our Mission</h4>
+            <p>JD Public School aims to provide a holistic education that nurtures academic excellence, personal growth, and social responsibility.</p>
+          </div>
+          
+          <div class="flip-box-back">
+            <h4>Our Vision</h4>
+            <p>We envision a future where every student reaches their full potential through innovative and compassionate education.</p>
+          </div>
+        </div>
+      </div>
+  
+     
+      <div class="flip-container">
+        <div class="flip-box">
+         
+          <div class="flip-box-front">
+            <h4>Our History</h4>
+            <p>Founded in 2014, JD Public School has been committed to providing high-quality education and fostering a supportive learning environment.</p>
+          </div>
+       
+          <div class="flip-box-back">
+            <h4>Our Team</h4>
+            <p>Our team of dedicated educators and support staff are committed to providing personalized attention and fostering a nurturing environment.</p>
+          </div>
+        </div>
+      </div>
+  
+   
+      <div class="flip-container">
+        <div class="flip-box">
+         
+          <div class="flip-box-front">
+            <h4>Facilities</h4>
+            <ul>
+              <li>Modern Classrooms</li>
+              <li>Science and Computer Labs</li>
+              <li>Library</li>
+              <li>Arts and Music Rooms</li>
+            </ul>
+          </div>
+         
+          <div class="flip-box-back">
+            <h4>Community Involvement</h4>
+            <p>JD Public School values strong partnerships with parents and the community.</p>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="flip-container">
+        <div class="flip-box">
+          
+          <div class="flip-box-front">
+            <h4>Why Choose Us?</h4>
+            <ul>
+              <li><strong>Holistic Education</strong></li>
+              <li><strong>Experienced Faculty</strong></li>
+              <li><strong>State-of-the-Art Facilities</strong></li>
+              <li><strong>Supportive Environment</strong></li>
+            </ul>
+          </div>
+         
+          <div class="flip-box-back">
+            <h4>What Sets Us Apart?</h4>
+            <p>JD Public School combines modern teaching methods with traditional values to offer a well-rounded educational experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+        
+        
+
+        <header>
+            <h1>Welcome to JD Public School</h1>
+          </header>
+        
+          <div id="chatbot" class="chatbot-container">
+            <div id="chat-window" class="chat-window"></div>
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Type a message" class="input-field">
+                <button onclick="sendMessage()" class="send-btn">Send</button>
+                <button onclick="resetChat()" class="reset-btn">Reset</button>
+            </div>
+          </div>
+        
+     <br>
+          <footer>
+            <p>&copy; 2024 JD Public School. All rights reserved.</p>
+            <p> new vijay vihar 
+              Morar Gwalior 474006 </p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank">Facebook</a>
+              <a href="https://www.twitter.com" target="_blank">Twitter</a>
+              <a href="https://www.instagram.com/jdpublicschoolgwl9?igsh=Mm1ibjZmaGt4ZHNi" target="_blank">Instagram</a>
+            </div>
+          </footer>
+        
+         
+          <script src="jd.js">
+            
+     
+      
+      
+  </script>
+ 
+  
+  
+</body>
+</html>
