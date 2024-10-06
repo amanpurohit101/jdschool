@@ -105,7 +105,7 @@ display: none;
 .header {
 position: relative;
 height: 100vh;
-background: url(' IMG-20240722-WA0026.jpg') no-repeat center center/cover   ; 
+background: url('IMG-20240722-WA0026.jpg') no-repeat center center/cover   ; 
 
 visibility: visible;
 display: flex;
