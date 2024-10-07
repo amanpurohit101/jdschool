@@ -670,7 +670,7 @@ h2, h3 {
   background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f); /* Gradient colors */
   background-size: 400% 400%; /* Size for the animation effect */
   animation: backgroundMovement 10s ease infinite; /* Animation properties */
-  border-radius: 8px; /* Optional: rounded corners */
+  border-radius: 50px; /* Optional: rounded corners */
   text-align: center; /* Center the text */
 }
 .about-section {
