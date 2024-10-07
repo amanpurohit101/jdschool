@@ -14,7 +14,7 @@ perspective: 400px;
 
       height: 390px;
 
-
+        background-image: linear-gradient(to bottom right, rgb(214 86 18 / 32%), rgb(255 0 0 / 0%));
 
 }
 
@@ -27,7 +27,7 @@ to {background-color: rgb(3, 42, 71);}
 
 
 #join{
-background-image: linear-gradient(to bottom right, rgb(0, 128, 58), rgb(11, 219, 143));
+background-image: linear-gradient(to bottom right, rgb(0 128 127 / 56%), rgb(11 219 205 / 0%));
 height: 390px;
      
   
