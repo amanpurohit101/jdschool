@@ -13,15 +13,12 @@ color: white;
 perspective: 400px;
 
       height: 390px;
-background-image: linear-gradient(to bottom right, rgb(18, 204, 214), rgb(0, 255, 145));
 
-transform: rotateX(30deg) rotateY(30deg);
-      transform-style: preserve-3d;
-      transition: transform 1s;
+
+
 }
-#contact:hover{
-transform: rotateX(180deg) rotateY(180deg);
-  }
+
+  
 
 @keyframes example {
 from {background-color: rgb(211, 11, 194);}
@@ -33,12 +30,8 @@ to {background-color: rgb(3, 42, 71);}
 background-image: linear-gradient(to bottom right, rgb(0, 128, 58), rgb(11, 219, 143));
 height: 390px;
      
-      transform: rotateX(30deg) rotateY(30deg);
-      transform-style: preserve-3d;
-      transition: transform 1s;
-}
-#join:hover{
-transform: rotateX(180deg) rotateY(180deg);
+  
+
   }
 
 body {
